@@ -11,6 +11,16 @@
                 </div>
             </div>
         </div>
+
+        <br>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-light"><img src="../static/Rutas_button.svg" width="130" height="130"></button>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -27,5 +37,9 @@ export default {
 }
 .sombra {
   box-shadow: 0 2px 6px rgba(39, 39, 39, 0.13), 0 2px 6px rgba(39, 39, 39, 0.13);
+}
+
+.light{
+    background-color: white;
 }
 </style>
