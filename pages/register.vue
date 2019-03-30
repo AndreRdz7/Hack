@@ -1,25 +1,24 @@
 <template>
     <div class="container second">
+                      <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-6 col-md-4">
+                    <img src="../static/logo.png" width="250" height="150">
+                </div>
+            </div>
+        </div>
         
         <div class="col-10">
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+
             <label for="name">Nombre</label>
             <input type="text" class="form-control" id="name">
                 <label for="name">Contraseña</label>
-                <input type="text" class="form-control" id="name">
+                <input type="password" class="form-control" id="name">
 
                 <label for="name">Email</label>
-                <input type="text" class="form-control" id="name">
+                <input type="email" class="form-control" id="name">
                 <label for="name">Edad</label>
                 <input type="text" class="form-control" id="name" >
                 <br>
@@ -43,6 +42,17 @@ export default {
 .letrabonita {
   font-size: 22px;
   font: bold;
+}
+
+input[type="password"] {
+ 
+    border: 2px solid black;
+
+}
+input[type="email"] {
+ 
+    border: 2px solid black;
+
 }
 .sombra {
   box-shadow: 0 2px 6px rgba(39, 39, 39, 0.13), 0 2px 6px rgba(39, 39, 39, 0.13);
