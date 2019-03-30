@@ -13,12 +13,18 @@
             <br>
             <br>
             <br>
-            <label for="name">Email</label>
-            <input type="text" class="form-control" id="name">
-                <label for="name">Contraseña</label>
-                <input type="text" class="form-control" id="name">  
+            <div>
+           <div> <label for="name">Email</label></div>
+            <input type="text" class="form-control col-md-4" id="name">
+            </div>
+            <br>
+            
+            <div>
+               <div> <label for="name" >Contraseña</label></div>
+                <input type="password" class="form-control col-md-4" id="name"> 
+                </div> 
                 <br>
-                <button type="submit" class="btn btn-danger">
+                <button type="submit" class="btn btn-dark">
                     <div>Aceptar</div>
                 </button>
         </div> 
@@ -32,6 +38,11 @@ export default {
 </script>
 
 <style>
+
+.form-control{
+ display: inline-block;
+ text-align: center;
+}
 .letrabonita {
   font-size: 22px;
   font: bold;
@@ -41,7 +52,8 @@ export default {
 }
 .second {
  background-image: url("../static/bg3.png");
- background-position: 30% 10%;
+
+ background-position: top left;
  background-color: #ffffff;
  background-size: auto;
  }
@@ -49,6 +61,7 @@ export default {
  .col-10{
  text-align: center;
  }
+
 
 
  input[type=text] {
