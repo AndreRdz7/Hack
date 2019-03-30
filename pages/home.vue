@@ -1,23 +1,15 @@
 <template>
     <div class="container">
-        <div>
+        <!--<div>
             <img src="../static/logo.png" width="100" height="100">
-        </div>
+        </div>-->
 
         <div class="container">
-            <img src="../static/route1.png" width="100" height="100">
-            <img src="../static/star.png" width="100" height="100">
-            <img src="../static/Huella_Verde_button.svg" width="100" height="100">
-        </div>
-
-        <div class ="col-sm">
-            <img src="../static/Huella_Verde_button.svg" width="100" height="100">
-            <img src="../static/Perfil_button.svg" width="100" height="100">
-            <img src="../static/Historial_button.svg" width="100" height="100">
-        </div>
-        
-        <div class="col-sm">
-            <img src="../static/rayas.svg" width="20" height="20">
+            <div class="row justify-content-md-center">
+                <div class="col-6 col-md-4">
+                    <img src="../static/logo.png" width="250" height="150">
+                </div>
+            </div>
         </div>
     </div>
 </template>
