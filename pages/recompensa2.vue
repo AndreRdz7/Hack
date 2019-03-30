@@ -10,7 +10,7 @@
         <br>
         <div class="center">
             <label class="center">Presiona para reclamar al instante, si al reclamar no haces uso de ella, se perderá la recompensa</label>
-            <a href="canjeado"><button class="reward">Confirmar recompensa de descuento del 10%</button></a>
+            <a href="huellamenosuno"><button class="reward">Confirmar recompensa de descuento del 10%</button></a>
         </div>
     </div>
 </template>
