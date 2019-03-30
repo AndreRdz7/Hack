@@ -15,7 +15,7 @@
 
 <style>
 body {
- background-image: url("../static/bg2.png");
+ background-image: url("../static/bg1.png");
  background-color: #cccccc;
  background-position: 50% 30%;
 }
