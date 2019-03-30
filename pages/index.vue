@@ -5,9 +5,9 @@
           <button type="button" class="btn btn-dark">Iniciar Sesion</button>
         </div>
          <div class="registro" >
-            <nuxt-link :to="{ name: 'register'}" replace>
-          <button type="button" class="btn btn-dark" >Registrarse</button>
-          </nuxt-link> 
+            <!-- <nuxt-link :to="{ name: 'register'}" replace> -->
+          <a href="register"><button type="button" class="btn btn-dark" >Registrarse</button></a>
+          <!-- </nuxt-link> -->
         </div>
       </div>
   </section>

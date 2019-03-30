@@ -1,7 +1,15 @@
 <template>
-    <div class="container bodyy">
+    <div class="container second">
         
-        <div class="col-12">
+        <div class="col-10">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <br>
             <br>
             <br>
@@ -36,9 +44,15 @@ export default {
 .sombra {
   box-shadow: 0 2px 6px rgba(39, 39, 39, 0.13), 0 2px 6px rgba(39, 39, 39, 0.13);
 }
-bodyy {
+.second {
  background-image: url("../static/bg2.png");
- background-repeat: no-repeat;
- background-color: #cccccc;
+ background-position: top right;
+ background-color: #ffffff;
+ background-size: auto;
  }
+
+ input[type=text] {
+  border: 2px solid blue;
+  border-radius: 4px;
+}
 </style>
