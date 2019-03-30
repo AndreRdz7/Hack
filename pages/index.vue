@@ -9,9 +9,9 @@
           <button type="button" class="btn btn-dark">Iniciar Sesion</button>
         </div>
          <div class="registro" >
-           <a href="register">
+            <nuxt-link :to="{ name: 'register'}" replace>
           <button type="button" class="btn btn-dark" >Registrarse</button>
-          </a>
+          </nuxt-link> 
         </div>
         
         <img src="..\static\route3.png" class="rounded" alt="...">
