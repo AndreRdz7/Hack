@@ -64,7 +64,7 @@ export default {
 }
 
 .light{
-    background-color: white;
+    background-color: transparent;
 }
 
 .body { 
