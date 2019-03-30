@@ -24,6 +24,13 @@
     </div>
 </template>
 
+<script>
+
+   
+
+</script>
+
+
 <style>
 .second {
  background-image: url("../static/bg6.png");
