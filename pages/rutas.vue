@@ -1,50 +1,60 @@
 <template>
-    <div class="container second">
-        
-        <div class="col-10">
-                <br>
-                <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+    <div class="container">
+        <div class="row justify-content-left">
+           <a href="home"><img src="../static/return.png" width="100" height="100"></a>
+        </div>
 
-    
-         
-        
-            <br>
-                <div>
-                <a href="">
-                <button type="submit" class="btn btn-danger btn-lg btn-block">
-                    <div>Ruta Casa</div>
-                </button>
-                </a>
-                </div>
-                <br>
-    
-                <div>
-                <a href="">
-                <button type="submit" class="btn btn-danger btn-lg btn-block">
-                    <div>Ruta Escuela</div>
-                </button>
-                </a>
-                </div>
-                <br>
+        <div class="container">
+            <div class="row justify-content-center">
+                <img src="../static/logo.png" width="250" height="150">
+            </div>
+        </div>
 
-                <div>
-                <a href="">
-                 <button type="submit" class="btn btn-danger btn-lg btn-block">
-                    <div>Casa Novio</div>
-                </button>
-                </a>
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <img src="../static/PuntoA.svg" width="150" height="150">
+            </div>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <div class="row justify-content-center">
+                    <input class="form-control" type="text">
                 </div>
-        </div> 
-    </div>
+            </div>
+        </form>
+
+        <br>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <img src="../static/PuntoB.svg" width="150" height="150">
+            </div>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <div class="row justify-content-center">
+                    <input class="form-control" type="text">
+                </div>
+            </div>
+        </form>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <button type="button" class="btn btn-dark btn-lg">Aceptar</button>
+            </div>
+        </div>
+        
+        <br>
+    </div> 
 </template>
 
 <script>
@@ -87,5 +97,9 @@ export default {
 
 .btn-danger{
     background-color: #FF5757;
+}
+
+.btn-dark {
+  background-color: black;
 }
 </style>
