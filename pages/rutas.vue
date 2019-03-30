@@ -84,4 +84,8 @@ export default {
   border: 2px solid black;
   border-radius: 4px;
 }
+
+.btn-danger{
+    background-color: #FF5757;
+}
 </style>
