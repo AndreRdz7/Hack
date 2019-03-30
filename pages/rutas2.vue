@@ -82,7 +82,7 @@ export default {
 .text-justify{
     text-indent: -20px;
 	position: absolute;
-	padding-left: 40px
+	padding-left: 40px;
 }
 .btn-dark {
   background-color: black;

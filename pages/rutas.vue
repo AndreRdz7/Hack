@@ -1,6 +1,6 @@
 <template>
     <div class="container second">
-        <div class="row justify-content-left">
+        <div class="row align-items-start">
            <a href="home"><img src="../static/return.png" width="100" height="100"></a>
         </div>
 
@@ -97,8 +97,12 @@ export default {
 }
 
 .second{
-    background-image: url("../static/bg4.png");
+    background-image: url("../static/bg7.png");
     background-color: white;
-    background-size: 1157px;
+    background-size: 2000px;
+}
+
+.align-items-start{
+    padding-left: 40px;
 }
 </style>
