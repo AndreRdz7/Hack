@@ -1,8 +1,15 @@
 <template>
     <div class="container second">
+
+        <div class="row align-items-start">
+           <a href="http://localhost:3000/"><img src="../static/return.png" width="100" height="100"></a>
+            </div>
+
                       <div class="container">
             <div class="row justify-content-md-center">
+                
                 <div class="col-6 col-md-5">
+                    
                     <img src="../static/logo.png" width="350" height="">
                 </div>
             </div>

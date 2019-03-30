@@ -10,7 +10,7 @@
         <br>
         <div class="center">
             <label class="center">Presiona para reclamar al instante, si al reclamar no haces uso de ella, se perderá la recompensa</label>
-            <a href="canjeado"><button id="myBtn" class="reward">Confirmar recompensa de botella de agua</button></a>
+            <a href="huellamenosuno"><button id="myBtn" class="reward">Confirmar recompensa de botella de agua</button></a>
         </div>
         <div id="myModal" class="modal">
 
