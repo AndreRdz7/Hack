@@ -22,27 +22,27 @@
             
            
                 <div>
-                <a href="">
+                <a href="rutas2">
                 <button type="submit" class="btn btn-danger btn-lg btn-block">
-                    <div><h4>Ruta Casa</h4></div>
+                     <div><h4>Ruta Casa</h4></div>
                 </button>
                 </a>
                 </div>
                 <br>
     
                 <div>
-                <a href="">
+                <a href="rutas2">
                 <button type="submit" class="btn btn-danger btn-lg btn-block">
-                    <div><h4>Ruta Escuela</h4></div>
+                     <div><h4>Ruta Escuela</h4></div> 
                 </button>
                 </a>
                 </div>
                 <br>
 
                 <div>
-                <a href="">
+                <a href="rutas2">
                  <button type="submit" class="btn btn-danger btn-lg btn-block">
-                    <div><h4>Casa Novio</h4></div>
+                    <div><h4>Casa Novio</h4></div>    
                 </button>
                 </a>
                 <br>

@@ -60,7 +60,7 @@
 
         <div class="container">
             <div class="row justify-content-center">
-                <button type="button" class="btn btn-dark btn-lg">Aceptar</button>
+                <a href="home"><button type="button" class="btn btn-dark btn-lg">Aceptar</button></a>
             </div>
         </div>
 
