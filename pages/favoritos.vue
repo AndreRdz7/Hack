@@ -5,7 +5,7 @@
         <div class="col-10">
 
             <div class="row align-items-start">
-           <a href="rutas"><img src="../static/return.png" width="100" height="100"></a>
+           <a href="home"><img src="../static/return.png" width="100" height="100"></a>
             </div>
                 <br>
                 <br>
