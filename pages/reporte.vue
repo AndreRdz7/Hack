@@ -1,6 +1,12 @@
 <template>
     <div class="container second">
-                      <div class="container">
+      
+      <br>
+      <div class="row align-items-start">
+           <a href="home"><img src="../static/return.png" width="100" height="100"></a>
+            </div>
+
+              <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-6 col-md-5">
                     <img src="../static/logo.png" width="350" height="">
@@ -9,18 +15,25 @@
         </div>
         
         <div class="col-10">
+          
+          <br>
+
+         
+                     <div><h1 align="center"><b>DESCRIBE EL INCIDENTE</b></h1></div>
             <br>
-        
+                
+            <label for="name">Ruta</label>
+            <input type="text" class="form-control col-md-8" id="name">
+            <br>
 
-            <label for="name">Nombre</label>
-            <input type="text" class="form-control" id="name">
-                <label for="name">Contraseña</label>
-                <input type="password" class="form-control" id="name">
+                <label for="name">Hora</label>
+                <input type="text" class="form-control col-md-4" id="name" >
+            
+            <br>
 
-                <label for="name">Email</label>
-                <input type="email" class="form-control" id="name">
-                <label for="name">Edad</label>
-                <input type="text" class="form-control" id="name" >
+                <label for="name">Acontecimiento</label>
+                <input type="text" class="form-control form-control-lg" id="name">
+
                 <br>
                 <a href="home">
                     <button type="submit" class="btn btn-dark btn-lg">
@@ -42,17 +55,6 @@ export default {
 .letrabonita {
   font-size: 22px;
   font: bold;
-}
-
-input[type="password"] {
- 
-    border: 2px solid black;
-
-}
-input[type="email"] {
- 
-    border: 2px solid black;
-
 }
 .sombra {
   box-shadow: 0 2px 6px rgba(39, 39, 39, 0.13), 0 2px 6px rgba(39, 39, 39, 0.13);

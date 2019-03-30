@@ -1,30 +1,32 @@
 <template>
     <div class="container second">
-            <div class="row align-items-start">
-           <a href="home"><img src="../static/return.png" width="100" height="100"></a>
-            </div>
 
-            <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-6 col-md-5">
-                    <img src="../static/logo.png" width="350" height="">
+             <div class="container">
+            <div class="row justify-content-md-left">
+                <div class="col-8 col-md-4">
+                    <img src="../static/logo.png" width="250" height="150">
                 </div>
             </div>
         </div>
         
         <div class="col-10">
-
-
+            <br>
+            <div><h1 align="center"><b>Historial</b></h1></div>
+            
+            <div class="row align-items-start">
+           <a href="home"><img src="../static/return.png" width="100" height="100"></a>
+            </div>
                 <br>
                 <br>
             <br>
- 
+
+                
             
            
                 <div>
                 <a href="">
                 <button type="submit" class="btn btn-danger btn-lg btn-block">
-                    <div><h4>Ruta Casa</h4></div>
+                    <div><h4>Ruta Casa 12:00</h4></div>
                 </button>
                 </a>
                 </div>
@@ -33,7 +35,7 @@
                 <div>
                 <a href="">
                 <button type="submit" class="btn btn-danger btn-lg btn-block">
-                    <div><h4>Ruta Escuela</h4></div>
+                    <div><h4>Ruta Escuela 8:00</h4></div>
                 </button>
                 </a>
                 </div>
@@ -42,7 +44,7 @@
                 <div>
                 <a href="">
                  <button type="submit" class="btn btn-danger btn-lg btn-block">
-                    <div><h4>Casa Novio</h4></div>
+                    <div><h4>Casa Novio 6:00</h4></div>
                 </button>
                 </a>
                 <br>
@@ -77,7 +79,7 @@ export default {
 .second {
  background-image: url("../static/bg2.png");
 
- background-position: 65% 10%;
+ background-position: 95% 10%;
  background-color: #ffffff;
  background-size: auto;
  }
