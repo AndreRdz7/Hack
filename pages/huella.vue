@@ -1,21 +1,31 @@
 <template>
     <div class="container second">
+
+            <br>
+      <div class="row align-items-start">
+           <a href="home"><img src="../static/return.png" width="100" height="100"></a>
+            </div>
+
+              <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-6 col-md-6">
+                    <img src="../static/logo.png" width="350" height="">
+                </div>
+            </div>
+        </div>
         
         <div class="col-10">
                 <br>
-                <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        
 
+
+        
+
+         
+                     <div><h1 align="center"><b>TU HUELLA VERDE</b></h1></div>
+            <br>
     
-          <div> <label  class="thick">TU HUELLA VERDE</label></div>
+          
           <div> <label >Gracias al uso del transporte público has ayudado al medio ambiente con: </label></div>
           <div>
             <label>
