@@ -24,9 +24,11 @@
                 <input type="password" class="form-control col-md-4" id="name"> 
                 </div> 
                 <br>
+                <a href="home">
                 <button type="submit" class="btn btn-dark">
                     <div>Aceptar</div>
                 </button>
+                </a>
         </div> 
     </div>
 </template>
