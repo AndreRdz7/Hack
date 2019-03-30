@@ -53,7 +53,7 @@ export default {
 .second {
  background-image: url("../static/bg3.png");
 
- background-position: top left;
+ background-position: 65% 10%;
  background-color: #ffffff;
  background-size: auto;
  }
