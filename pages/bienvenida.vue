@@ -13,22 +13,36 @@
             <br>
             <br>
             <br>
-            <div>
-           <div> <label for="name">Email</label></div>
-            <input type="text" class="form-control col-md-4" id="name">
-            </div>
+
+           <div> <label for="name">BIENVENIDO NOMBRE</label></div>
+         
+        
             <br>
-            
-            <div>
-               <div> <label for="name" >Contraseña</label></div>
-                <input type="password" class="form-control col-md-4" id="name"> 
-                </div> 
-                <br>
-                <a href="home">
+                <div>
+                <a href="">
                 <button type="submit" class="btn btn-dark">
-                    <div>Aceptar</div>
+                    <div>Modifica contraseña</div>
                 </button>
                 </a>
+                </div>
+                <br>
+    
+                <div>
+                <a href="">
+                <button type="submit" class="btn btn-dark">
+                    <div>Modifica e-mail</div>
+                </button>
+                </a>
+                </div>
+                <br>
+
+                <div>
+                <a href="">
+                <button type="submit" class="btn btn-dark">
+                    <div>Modificar nombre</div>
+                </button>
+                </a>
+                </div>
         </div> 
     </div>
 </template>
@@ -53,7 +67,7 @@ export default {
   box-shadow: 0 2px 6px rgba(39, 39, 39, 0.13), 0 2px 6px rgba(39, 39, 39, 0.13);
 }
 .second {
- background-image: url("../static/bg3.png");
+ background-image: url("../static/bg2.png");
 
  background-position: 65% 10%;
  background-color: #ffffff;
