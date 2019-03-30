@@ -2,7 +2,7 @@
   <section class="container body">
     <div>
         <div class="sesion">
-          <button type="button" class="btn btn-dark btn-lg">Iniciar Sesion</button>
+          <a href="sesion"> <button type="button" class="btn btn-dark btn-lg">Iniciar Sesion</button></a>
         </div>
          <div class="registro" >
             <!-- <nuxt-link :to="{ name: 'register'}" replace> -->
