@@ -2,15 +2,15 @@
     <div class="container second">
                       <div class="container">
             <div class="row justify-content-md-center">
-                <div class="col-6 col-md-4">
-                    <img src="../static/logo.png" width="250" height="150">
+                <div class="col-6 col-md-5">
+                    <img src="../static/logo.png" width="350" height="">
                 </div>
             </div>
         </div>
         
         <div class="col-10">
             <br>
-            <br>
+        
 
             <label for="name">Nombre</label>
             <input type="text" class="form-control" id="name">
