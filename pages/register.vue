@@ -23,9 +23,12 @@
                 <label for="name">Edad</label>
                 <input type="text" class="form-control" id="name" >
                 <br>
-                <button type="submit" class="btn btn-danger">
-                    <div>Aceptar</div>
-                </button>
+                <a href="home">
+                    <button type="submit" class="btn btn-danger">
+                        <div>Aceptar</div>
+                    </button>
+                </a>
+                
         </div> 
     </div>
 </template>
