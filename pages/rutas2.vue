@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-         <div class="row justify-content-left">
+         <div class="row align-items-start">
            <a href="rutas"><img src="../static/return.png" width="100" height="100"></a>
         </div>
 
@@ -20,14 +20,19 @@
 
         
 
-        <!--<div class="container">
-            <div class="row justify-content-left">
-                <img src="bell.png" width="30" height="30">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-1">
+                    <img src="bus4.png" width="30" height="30">
+                </div>
+                <div class="col-1">
+                    <img src="bell.png" width="30" height="30">
+                </div>
+                <div class="col-1">
+                    <img src="share.png" width="30" height="30">
+                </div>
             </div>
-            <div class="row justify-content-right">
-                <img src="bus4.png" width="30" height="30">
-            </div>
-        </div>-->
+        </div>
 
         
 
@@ -82,5 +87,6 @@ export default {
 .btn-dark {
   background-color: black;
 }
+
 </style>
 
