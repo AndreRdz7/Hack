@@ -1,22 +1,20 @@
 <template>
     <div class="container second">
+
+              <div class="container">
+            <div class="row justify-content-md-left">
+                <div class="col-6 col-md-4">
+                    <img src="../static/logo.png" width="250" height="150">
+                </div>
+            </div>
+        </div>
         
         <div class="col-10">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+          <br>
+          <br>
+
          
-                     <div><h4 align="center"><b>DESCRIBE EL INCIDENTE</b></h4></div>
+                     <div><h1 align="center"><b>DESCRIBE EL INCIDENTE</b></h1></div>
             <br>
                 
             <label for="name">Ruta</label>
