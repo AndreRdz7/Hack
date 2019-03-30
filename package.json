@@ -2,7 +2,6 @@
   "name": "fronthack",
   "version": "1.0.0",
   "description": "hackpuebla2019",
-  "author": "AndreRdz7",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
