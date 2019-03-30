@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container second">
         <div class="row justify-content-left">
            <a href="home"><img src="../static/return.png" width="100" height="100"></a>
         </div>
@@ -9,7 +9,7 @@
                 <img src="../static/logo.png" width="250" height="150">
             </div>
         </div>
-
+        
         <br>
         <br>
 
@@ -76,13 +76,6 @@ export default {
 .sombra {
   box-shadow: 0 2px 6px rgba(39, 39, 39, 0.13), 0 2px 6px rgba(39, 39, 39, 0.13);
 }
-.second {
- background-image: url("../static/bg2.png");
-
- background-position: 65% 10%;
- background-color: #ffffff;
- background-size: auto;
- }
 
  .col-10{
  text-align: center;
@@ -101,5 +94,12 @@ export default {
 
 .btn-dark {
   background-color: black;
+}
+
+.second{
+    background-image: url("../static/bg5.png");
+    height: 500px;
+    widows: 10px;
+    background-color: white;
 }
 </style>
