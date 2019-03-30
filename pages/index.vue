@@ -1,24 +1,25 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">
-        fronthack
-      </h1>
-      <h2 class="subtitle">
-        hackpuebla2019
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
-          >Documentation</a
-        >
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-          >GitHub</a
-        >
+       <a>
+           <img src="..\static\logo.png" />
+        </a>
+
+        <div class="sesion">
+          <button type="button" class="btn btn-dark">Iniciar Sesion</button>
+        </div>
+         <div class="registro" >
+           <a href="register">
+          <button type="button" class="btn btn-dark" >Registrarse</button>
+          </a>
+        </div>
+        
+        <img src="..\static\route3.png" class="rounded" alt="...">
+      
+        <img src="..\static\route5.png" class="rounded" alt="...">
+
       </div>
-    </div>
+
   </section>
 </template>
 
@@ -32,7 +33,7 @@
   text-align: center;
 }
 
-.title {
+.sesion {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
@@ -42,7 +43,7 @@
   letter-spacing: 1px;
 }
 
-.subtitle {
+.registro {
   font-weight: 300;
   font-size: 42px;
   color: #526488;
@@ -50,7 +51,7 @@
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
+.imagenes {
+  padding-top: 50px;
 }
 </style>
