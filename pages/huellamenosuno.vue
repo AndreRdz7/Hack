@@ -46,12 +46,6 @@
                 <br>
 
                 <div>
-                <a href="recompensa3">
-                 <button type="submit" class="btn btn-danger btn-lg btn-block">
-                    <div>Una botella de 1.5L Bonafont</div>
-                </button>
-                </a>
-                <br>
                 <br>
                 <a href="home" class="w3-circle center">
                 <button type="submit" class="btn btn-dark">
