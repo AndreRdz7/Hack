@@ -87,6 +87,5 @@ export default {
 .btn-dark {
   background-color: black;
 }
-
 </style>
 
