@@ -1,21 +1,29 @@
 <template>
     <div class="container second">
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+                    <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-6 col-md-4">
+                    <img src="../static/logo.png" width="350" height="">
+                </div>
+            </div>
+        </div>
         
         <div class="col-10">
                 <br>
                 <br>
-            <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-6 col-md-5">
-                    <img src="../static/logo.png" width="350">
-                </div>
-            </div>
-        </div>
-        <br>
-                <br>
-                <br>
-                <br>
-            <div>
+
+
+       
+            <div> 
            <div> <label for="name">Email</label></div>
             <input type="email" class="form-control col-md-4" id="name">
             </div>
@@ -33,6 +41,7 @@
                     <div>Aceptar</div>
                 </button>
                 </a>
+                
         </div> 
     </div>
 </template>
@@ -49,6 +58,12 @@ export default {
  display: inline-block;
  text-align: center;
 }
+input[type="password"] {
+ 
+    border: 2px solid black;
+ 
+
+}
 .letrabonita {
   font-size: 22px;
   font: bold;
@@ -57,7 +72,7 @@ export default {
   box-shadow: 0 2px 6px rgba(39, 39, 39, 0.13), 0 2px 6px rgba(39, 39, 39, 0.13);
 }
 .second {
- background-image: url("../static/bg7.png");
+ background-image: url("../static/bg4.png");
 
  background-position: 65% 10%;
  background-color: #ffffff;
