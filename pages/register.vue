@@ -24,7 +24,7 @@
                 <input type="text" class="form-control" id="name" >
                 <br>
                 <a href="home">
-                    <button type="submit" class="btn btn-danger">
+                    <button type="submit" class="btn btn-dark btn-lg">
                         <div>Aceptar</div>
                     </button>
                 </a>
@@ -57,5 +57,9 @@ export default {
  input[type=text] {
   border: 2px solid black;
   border-radius: 4px;
+}
+
+.btn-dark{
+  background-color: black
 }
 </style>
