@@ -21,7 +21,7 @@
                     <a href="rutas"><button type="button" class="btn btn-light"><img src="../static/Rutas_button.svg" width="230" height="230"></button></a>
                 </div>
                 <div class="col-6 col-md-4">
-                    <button type="button" class="btn btn-light"><img src="../static/Favoritos_button.svg" width="230" height="230"></button>
+                    <a href="favoritos"><button type="button" class="btn btn-light"><img src="../static/Favoritos_button.svg" width="230" height="230"></button></a>
                 </div>
                 <div class="col-6 col-md-4">
                     <button type="button" class="btn btn-light"><img src="../static/Huella_Verde_button.svg" width="330" height="230"></button>
