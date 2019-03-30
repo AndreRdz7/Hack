@@ -52,7 +52,7 @@ export default {
  }
 
  input[type=text] {
-  border: 2px solid blue;
+  border: 2px solid black;
   border-radius: 4px;
 }
 </style>
