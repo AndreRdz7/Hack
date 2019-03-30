@@ -24,7 +24,7 @@
                     <a href="favoritos"><button type="button" class="btn btn-light"><img src="../static/Favoritos_button.svg" width="230" height="230"></button></a>
                 </div>
                 <div class="col-6 col-md-4">
-                    <button type="button" class="btn btn-light"><img src="../static/Huella_Verde_button.svg" width="330" height="230"></button>
+                    <a href="huella"><button type="button" class="btn btn-light"><img src="../static/Huella_Verde_button.svg" width="330" height="230"></button></a>
                 </div>
             </div>
         </div>
@@ -35,13 +35,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-4">
-                    <button type="button" class="btn btn-light"><img src="../static/Incidentes_button.svg" width="230" height="230"></button>
+                    <a href="reporte"><button type="button" class="btn btn-light"><img src="../static/Incidentes_button.svg" width="230" height="230"></button></a>
                 </div>
                 <div class="col-6 col-md-4">
-                    <button type="button" class="btn btn-light"><img src="../static/Perfil_button.svg" width="230" height="230"></button>
+                    <a href="perfil"><button type="button" class="btn btn-light"><img src="../static/Perfil_button.svg" width="230" height="230"></button></a>
                 </div>
                 <div class="col-6 col-md-4">
-                    <button type="button" class="btn btn-light"><img src="../static/Historial_button.svg" width="330" height="220"></button>
+                    <a href="historial"><button type="button" class="btn btn-light"><img src="../static/Historial_button.svg" width="330" height="220"></button></a>
                 </div>
             </div>
         </div>
