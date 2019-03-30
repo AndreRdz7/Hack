@@ -23,10 +23,11 @@
             <input type="text" class="form-control" id="name">
                 <label for="name">Contraseña</label>
                 <input type="password" class="form-control" id="name">
-
                 <label for="name">Email</label>
                 <input type="email" class="form-control" id="name">
                 <label for="name">Edad</label>
+                <input type="text" class="form-control" id="name" >
+                <label for="name">Número tarjeta</label>
                 <input type="text" class="form-control" id="name" >
                 <br>
                 <a href="home">
