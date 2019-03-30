@@ -1,8 +1,6 @@
 <template>
-  <section class="container">
+  <section class="container body">
     <div>
-
-
         <div class="sesion">
           <button type="button" class="btn btn-dark">Iniciar Sesion</button>
         </div>
@@ -11,11 +9,7 @@
           <button type="button" class="btn btn-dark" >Registrarse</button>
           </nuxt-link> 
         </div>
-      
-  
-
       </div>
-
   </section>
 </template>
 

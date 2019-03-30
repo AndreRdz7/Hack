@@ -1,8 +1,6 @@
 <template>
-    <div class="container">
-        <body>
-            
-        </body>
+    <div class="container bodyy">
+        
         <div class="col-12">
             <br>
             <br>
@@ -38,7 +36,9 @@ export default {
 .sombra {
   box-shadow: 0 2px 6px rgba(39, 39, 39, 0.13), 0 2px 6px rgba(39, 39, 39, 0.13);
 }
-body {
+bodyy {
  background-image: url("../static/bg2.png");
- background-color: #cccccc;}
+ background-repeat: no-repeat;
+ background-color: #cccccc;
+ }
 </style>

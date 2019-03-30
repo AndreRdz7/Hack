@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <div class="col-3">
-            holi
+        <div class="col-12">
+           
         </div>
     </div>
 </template>
@@ -13,9 +13,10 @@ export default {
 </script>
 
 <style>
-rotate {
-  transform: rotate(180deg);
-}
+bodyy {
+ background-image: url("../static/bg3.png");
+ background-color: #cccccc;
+ }
 </style>
 
 
