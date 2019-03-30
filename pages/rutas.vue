@@ -97,9 +97,8 @@ export default {
 }
 
 .second{
-    background-image: url("../static/bg5.png");
-    height: 500px;
-    widows: 10px;
+    background-image: url("../static/bg4.png");
     background-color: white;
+    background-size: 1157px;
 }
 </style>
